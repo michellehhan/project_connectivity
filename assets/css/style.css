@@ -4603,6 +4603,10 @@ img {
   padding-right: 100px;
 }
 
+.pr-130{
+  padding-right: 130px;
+}
+
 .pt-290 {
   padding-top: 290px;
 }
@@ -8610,7 +8614,7 @@ img {
   margin-bottom: 5px;
 }
 .tpproject__meta span {
-  font-size: 15px;
+  font-size: 14px;
   text-transform: uppercase;
   color: #57595C;
   font-weight: 500;
