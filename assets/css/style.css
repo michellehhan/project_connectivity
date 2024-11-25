@@ -77,12 +77,12 @@
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Federo&display=swap");
 :root {
-  --tp-theme-color: #0057FC;
-  --tp-theme-color-2: #FFE815;
-  --tp-theme-color-3: #FEDC76;
+  --tp-theme-color: #83bbfb;
+  --tp-theme-color-2: #f7e28f;
+  --tp-theme-color-3: #fcdf89;
   --tp-theme-color-4: #FFF3D7;
-  --tp-theme-orange: #FF5B15;
-  --tp-theme-orange-2: #FF3838;
+  --tp-theme-orange: #f99469;
+  --tp-theme-orange-2: #fb7f7f;
   --tp-heading-color: #0A0E1A;
   --tp-black-common: #0A0E1A;
   --tp-body-color: #57595C;
@@ -5190,7 +5190,8 @@ img {
   scrollbar-width: none;
 }
 .tp-offcanvas-logo img {
-  width: 168px;
+  padding-top: 20px;
+  width: 258px;
 }
 @media only screen and (max-width: 400px) {
   .tp-offcanvas {
@@ -6629,7 +6630,7 @@ img {
 }
 
 .tp-logo img {
-  width: 168px;
+  width: 700px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
