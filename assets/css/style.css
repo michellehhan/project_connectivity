@@ -402,6 +402,10 @@ img {
   position: absolute;
 }
 
+.pl-8p{
+  padding-left: 8%;
+}
+
 .br-5 {
   border-radius: 5px;
 }
@@ -6252,6 +6256,10 @@ img {
   height: 1px;
 }
 
+.tpproject__thumb img{
+  border-radius: 7px;
+}
+
 .tpfooter-social a {
   color: #fff;
   opacity: 0.7;
@@ -8607,9 +8615,9 @@ img {
   font-size: 30px;
   margin: 0;
 }
-.tpproject__title:hover {
+/* .tpproject__title:hover {
   color: var(--tp-theme-color);
-}
+} */
 .tpproject__meta {
   margin-bottom: 5px;
 }
