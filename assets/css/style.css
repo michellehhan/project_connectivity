@@ -192,6 +192,12 @@ li,
   transition: 0.3s;
 }
 
+.short-img {
+  height: 150px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image doesn't stretch but crops excess */
+  width: 100%; /* Maintains width for responsiveness */
+}
+
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color: inherit;
@@ -9080,7 +9086,7 @@ img {
   border-radius: 20px;
 }
 .tpteam__thumb-bg {
-  height: 360px;
+  height: 290px;
   width: 100%;
   background-color: #FFE9C9;
   position: absolute;
@@ -9089,8 +9095,11 @@ img {
   z-index: -1;
   border-radius: 140px 140px 0 0;
 }
+.pt-20{
+  padding-top: 15px;
+}
 .tpteam__thumb-bg-border {
-  height: 360px;
+  height: 290px;
   border: 1px solid #57595C;
   position: absolute;
   bottom: 10px;
