@@ -254,18 +254,17 @@
 
     // brand title slider  
     var swiper = new Swiper(".tp-brand-title-active", {
-        slidesPerView: 'auto',
-        spaceBetween: 40,
-        freemode: true,
-        centeredSlides: true,
-        loop: true,
-        speed: 4000,
-        allowTouchMove: false,
-        autoplay: {
-            delay: 1,
-            disableOnInteraction: true,
-        },
-    });
+      slidesPerView: 'auto',
+      spaceBetween: 40,
+      centeredSlides: true,
+      loop: true, // Ensures infinite scrolling
+      speed: 5000, // Controls the scrolling speed for smooth motion
+      allowTouchMove: false, // Prevents manual dragging
+      autoplay: {
+          delay: 500, // Minimal delay ensures autoplay starts immediately
+          disableOnInteraction: false, // Keeps autoplay running even after interaction
+      },
+  });
 
 
     // brand normal slider 
